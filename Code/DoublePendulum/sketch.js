@@ -28,7 +28,7 @@ function setup() {
   buffer = createGraphics(width, height);
   buffer.background(255);
   buffer.translate(cx, cy);
-  cnv.position(550,300);
+  cnv.position(500,175);
 }
 
 function draw() {

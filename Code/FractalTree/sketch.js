@@ -6,8 +6,8 @@ function getRndInteger(min, max) {
 }
 
 function setup() {
-  var cnv = createCanvas(800,400);
-  cnv.position(350,350);
+  var cnv = createCanvas(800,500);
+  cnv.position(350,250);
 }
 
 function draw() {
@@ -15,7 +15,7 @@ function draw() {
   translate(400, height);
   //strokeWeight(1.2);
   var color = getRndInteger(0, 255);
-  branch(130);
+  branch(150);
 }
 
 function branch(len) {
