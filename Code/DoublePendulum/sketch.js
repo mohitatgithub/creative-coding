@@ -73,7 +73,7 @@ function draw() {
   a1 += a1_v;
   a2 += a2_v;
 
-  buffer.stroke(255,0,0);
+  buffer.stroke(getRndInteger(0,255),getRndInteger(0,255),getRndInteger(0,255));
   if (frameCount > 1) {
     buffer.line(px2, py2, x2, y2);
   }
